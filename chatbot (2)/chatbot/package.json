@@ -10,7 +10,8 @@
     "@whiskeysockets/baileys": "6.6.0",
     "qrcode": "1.5.3",
     "pino": "8.21.0",
-    "@hapi/boom": "10.0.1"
+    "@hapi/boom": "10.0.1",
+    "sharp": "0.32.6"
   },
   "engines": {
     "node": ">=16.x"
