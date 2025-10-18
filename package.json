@@ -1,0 +1,19 @@
+{
+  "name": "bot-zentex",
+  "version": "1.0.0",
+  "description": "Bot de atendimento para a Zentex Limpeza",
+  "main": "chatbot.js",
+  "scripts": {
+    "start": "node chatbot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.20",
+    "node-fetch": "^2.7.0",
+    "pino": "^8.21.0",
+    "qrcode": "^1.5.3"
+  }
+}

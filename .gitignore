@@ -1,0 +1,9 @@
+# Dependências Node
+/node_modules
+# Credenciais do WhatsApp
+/baileys_auth_info
+# Variáveis de ambiente
+.env
+# Logs e cache
+*.log
+.cache
