@@ -2,7 +2,7 @@
  * @file chatbot.js
  * @description Bot de atendimento para a empresa Zentex Limpeza, com funil de atendimento,
  * integração com IA para respostas dinâmicas e funcionalidades de áudio (Speech-to-Text).
- * @version 2.1.5 (Pronto para Deploy no Railway)
+ * @version 2.1.6 (Corrigido para ambiente Discloud/Dockerfile)
  */
 
 // ###############################################################
@@ -88,7 +88,7 @@ async function connectToWhatsApp() {
     }
 
     async function generateResponseWithLLM(userQuery) {
-        // A chave da API será carregada das Variáveis de Ambiente do Railway
+        // A chave da API será carregada das Variáveis de Ambiente do Discloud
         const apiKey = process.env.GEMINI_API_KEY || process.env.API_KEY || 'AIzaSyCBWxVsI9Ss0rfdrGv3251TMh_ySpG6yY0';
         
         if (!apiKey) {
